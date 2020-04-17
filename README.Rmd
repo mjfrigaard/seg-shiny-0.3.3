@@ -23,8 +23,6 @@ knitr::opts_chunk$set(
   comment = "#> ", # better console printing
   eval = TRUE, # turn this to FALSE stop code chunks from running
   message = TRUE, # show messages
-  fig.width = 9, # figure width
-  fig.height = 6, # figure height
   fig.path = "image/", # place images here
   warning = FALSE, # show warnings
   size = "small") # size of the text
@@ -46,6 +44,10 @@ library(styler) # cleaner code
 ```
 
 # Welcome to the SEG Shiny app project page!
+
+```{r seg-logo, echo=FALSE, fig.height=5, fig.width=7}
+knitr::include_graphics("image/seg600-1280-640.png")
+```
 
 Document info:
 
@@ -94,6 +96,8 @@ This application incorporates two lines of research: the use a surveillance erro
 
 1. [Investigation of the Accuracy of 18 Marketed Blood Glucose Monitors. David C. Klonoff, Joan Lee Parkes, Boris P. Kovatchev, David Kerr, Wendy C. Bevier, Ronald L. Brazg, Mark Christiansen, Timothy S. Bailey, James H. Nichols and Michael A. Kohn. Diabetes Care 2018 Aug; 41(8): 1681-1688.](http://care.diabetesjournals.org/content/41/8/1681.long)
 
+
+
 ### Feature requests, bugs, etc. 
 
 Please email `mjfrigaard@gmail.com` for any bugs or issues. 
@@ -107,4 +111,6 @@ Any updates and recent changes have been documented [here](https://github.com/mj
 [This document](https://github.com/mjfrigaard/seg-shiny-0.3.3/blob/master/SRS-documentation.md) outlines the goals and objectives of the SEG shiny application, and documents the code in great depth. 
 
 
-
+```{r quesgen-rstudio-icon-logo, echo=FALSE, fig.width=3, fig.height=2}
+knitr::include_graphics("image/quesgen-rstudio-icon-logo.png")
+```

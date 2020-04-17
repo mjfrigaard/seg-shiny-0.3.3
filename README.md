@@ -5,6 +5,8 @@ Martin Frigaard
 
 # Welcome to the SEG Shiny app project page\!
 
+<img src="image/seg600-1280-640.png" width="1280" />
+
 Document info:
 
   - **Created date:** 2020-04-17
@@ -84,3 +86,5 @@ Any updates and recent changes have been documented
 document](https://github.com/mjfrigaard/seg-shiny-0.3.3/blob/master/SRS-documentation.md)
 outlines the goals and objectives of the SEG shiny application, and
 documents the code in great depth.
+
+<img src="image/quesgen-rstudio-icon-logo.png" width="708" />
