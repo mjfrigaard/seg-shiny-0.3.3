@@ -55,104 +55,6 @@ There is also a problem with a SEG table summary, specifically, the
 
 ``` r
 source("App/helpers.R")
-```
-
-    #>  
-    #>  Attaching package: 'colourpicker'
-
-    #>  The following object is masked from 'package:shiny':
-    #>  
-    #>      runExample
-
-    #>  Loading required package: plotly
-
-    #>  
-    #>  Attaching package: 'plotly'
-
-    #>  The following object is masked from 'package:mosaic':
-    #>  
-    #>      do
-
-    #>  The following object is masked from 'package:ggplot2':
-    #>  
-    #>      last_plot
-
-    #>  The following object is masked from 'package:stats':
-    #>  
-    #>      filter
-
-    #>  The following object is masked from 'package:graphics':
-    #>  
-    #>      layout
-
-    #>  Loading required package: viridis
-
-    #>  Loading required package: viridisLite
-
-    #>  Registered S3 method overwritten by 'seriation':
-    #>    method         from 
-    #>    reorder.hclust gclus
-
-    #>  
-    #>  ======================
-    #>  Welcome to heatmaply version 1.1.0
-    #>  
-    #>  Type citation('heatmaply') for how to cite the package.
-    #>  Type ?heatmaply for the main documentation.
-    #>  
-    #>  The github page is: https://github.com/talgalili/heatmaply/
-    #>  Please submit your suggestions and bug-reports at: https://github.com/talgalili/heatmaply/issues
-    #>  Or contact: <tal.galili@gmail.com>
-    #>  ======================
-
-    #>  
-    #>  Attaching package: 'data.table'
-
-    #>  The following object is masked from 'package:purrr':
-    #>  
-    #>      transpose
-
-    #>  The following objects are masked from 'package:lubridate':
-    #>  
-    #>      hour, isoweek, mday, minute, month, quarter, second, wday, week,
-    #>      yday, year
-
-    #>  The following objects are masked from 'package:dplyr':
-    #>  
-    #>      between, first, last
-
-    #>  Welcome to clipr. See ?write_clip for advisories on writing to the clipboard in R.
-
-    #>  Parsed with column specification:
-    #>  cols(
-    #>    BGM = col_double(),
-    #>    REF = col_double()
-    #>  )
-
-    #>  Parsed with column specification:
-    #>  cols(
-    #>    RiskPairID = col_double(),
-    #>    REF = col_double(),
-    #>    BGM = col_double(),
-    #>    RiskFactor = col_double(),
-    #>    abs_risk = col_double()
-    #>  )
-
-    #>  Parsed with column specification:
-    #>  cols(
-    #>    risk_cat = col_double(),
-    #>    ABSLB = col_double(),
-    #>    ABSUB = col_double()
-    #>  )
-
-    #>  Parsed with column specification:
-    #>  cols(
-    #>    Ref = col_double(),
-    #>    UB = col_double(),
-    #>    LB = col_double()
-    #>  )
-
-``` r
 segTable(dat = base::paste0(github_data_root, 
                             "VanderbiltComplete.csv")) %>% 
   # get data grouped/tallied by risk_cat
@@ -193,23 +95,7 @@ segTable(dat = base::paste0(github_data_root,
                                        "#FF4500", "#FF0000")))
 ```
 
-    #>  Parsed with column specification:
-    #>  cols(
-    #>    BGM = col_double(),
-    #>    REF = col_double()
-    #>  )
-
-    #>  PhantomJS not found. You can install it with webshot::install_phantomjs(). If it is installed, please make sure the phantomjs executable can be found via the PATH variable.
-
-<!--html_preserve-->
-
-<div id="htmlwidget-e20b76b4f8195feaf48f" class="datatables html-widget" style="width:100%;height:auto;">
-
-</div>
-
-<script type="application/json" data-for="htmlwidget-e20b76b4f8195feaf48f">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8"],[0,1,2,3,4,5,6,7],["None","Slight, Lower","Slight, Higher","Moderate, Lower","Moderate, Higher","Severe, Lower","Severe, Upper","Extreme"],[9474,294,55,24,11,10,null,null],["95.8%","3%","0.6%","0.2%","0.1%","0.1%","NA","NA"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>SEG Risk Level<\/th>\n      <th>SEG Risk Category<\/th>\n      <th>Number of Pairs<\/th>\n      <th>Percent<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"lengthChange":false,"dom":"t","rownames":false,"columnDefs":[{"className":"dt-right","targets":[1,3]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data) {\nvar value=data[1]; $(row).css({'background-color':value == 0 ? \"#00EE00\" : value == 1 ? \"#ADFF2F\" : value == 2 ? \"#FFFF00\" : value == 3 ? \"#FFD700\" : value == 4 ? \"#FFA500\" : value == 5 ? \"#EE7600\" : value == 6 ? \"#FF4500\" : value == 7 ? \"#FF0000\" : value});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
-
-<!--/html_preserve-->
+![](image/helpers.R-1.png)<!-- -->
 
 This was fixed with a new column name for `SEG Risk Level`.
 

@@ -93,7 +93,7 @@ This looks like a problem in the helpers file, but will investigate and confirm.
 
 There is also a problem with a SEG table summary, specifically, the `segTable()` function and it's interactions with DT.
 
-```{r helpers.R}
+```{r helpers.R, message=FALSE, warning=FALSE}
 source("App/helpers.R")
 segTable(dat = base::paste0(github_data_root, 
                             "VanderbiltComplete.csv")) %>% 

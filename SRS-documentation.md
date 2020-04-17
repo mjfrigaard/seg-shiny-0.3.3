@@ -116,13 +116,17 @@ Document info:
     #>  ├── BackgroundComplete.png
     #>  ├── BackgroundSmooth.png
     #>  ├── add-sample-data-to-seg_gaussian_layer_shiny-1.png
+    #>  ├── base_layer-1.png
     #>  ├── check-seg_gaussian_layer_shiny-1.png
     #>  ├── complete-save-as-csv.png
     #>  ├── dts-seg-plot-gaussian.png
     #>  ├── dts-seg-plot-ggplot2.png
+    #>  ├── gaussian_layer-1.png
     #>  ├── heat_map_1.1.png
     #>  ├── heat_map_2.0.png
+    #>  ├── heatmap-version-1-1.png
     #>  ├── heatmap_plot-1.png
+    #>  ├── helpers.R-1.png
     #>  ├── modba_plot-pdf-1.3.1.pdf
     #>  ├── modba_plot-png-1.3.1.png
     #>  ├── print-seg_gaussian_layer_shiny-1.png

@@ -98,5 +98,13 @@ This application incorporates two lines of research: the use a surveillance erro
 
 Please email `mjfrigaard@gmail.com` for any bugs or issues. 
 
+### CHANGELOG 
+
+Any updates and recent changes have been documented [here](https://github.com/mjfrigaard/seg-shiny-0.3.3/blob/master/CHANGELOG.md). 
+
+### Software Requirement Specifications (SRS)
+
+[This document](https://github.com/mjfrigaard/seg-shiny-0.3.3/blob/master/SRS-documentation.md) outlines the goals and objectives of the SEG shiny application, and documents the code in great depth. 
+
 
 
