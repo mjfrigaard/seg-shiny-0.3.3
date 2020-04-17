@@ -1,0 +1,9 @@
+risk_cat,risk_cat_txt,ABSLB,ABSUB
+0,None,-0.001,0.5
+1,"Slight, Lower",0.5,1
+2,"Slight, Higher",1,1.5
+3,"Moderate, Lower",1.5,2
+4,"Moderate, Higher",2,2.5
+5,"Severe, Lower",2.5,3
+6,"Severe, Upper",3,3.5
+7,Extreme,3,1000

@@ -1,0 +1,12 @@
+name: seg-shiny-033
+title: seg-shiny-033
+username:
+account: mfrigaard
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2137080
+bundleId: 3028162
+url: https://mfrigaard.shinyapps.io/seg-shiny-033/
+when: 1587148237.35003
+asMultiple: FALSE
+asStatic: FALSE
